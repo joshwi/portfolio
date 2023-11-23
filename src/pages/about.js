@@ -3,22 +3,22 @@ import React from "react"
 
 const info = {
     title: "Josh Williams",
-    icon: "photos/portrait.jpg",
+    icon: "./photos/portrait.jpg",
     description: "With a background spanning both Cisco as a network engineer and Apple as a software engineer, I've navigated the dynamic landscapes of networking architectures and software development. At Cisco, I fine-tuned my skills in crafting robust network infrastructures, fostering seamless connectivity. Transitioning to Apple, I delved into software engineering, creating user-centric applications that merged innovation with functionality. My expertise bridges network optimization, software design, and embracing the ever-evolving tech forefront. Beyond coding, I'm passionate about mentoring and community engagement, eager to collaborate and innovate in this ever-expanding tech universe.",
     links: [
         {
             name: "github",
-            icon: "svg/social/github.svg",
+            icon: "./svg/social/github.svg",
             url: "https://github.com/joshwi"
         },
         {
             name: "discord",
-            icon: "svg/social/discord.svg",
+            icon: "./svg/social/discord.svg",
             url: "https://github.com/joshwi"
         },
         {
             name: "youtube",
-            icon: "svg/social/youtube.svg",
+            icon: "./svg/social/youtube.svg",
             url: "https://github.com/joshwi"
         }
     ]

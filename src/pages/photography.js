@@ -2,15 +2,15 @@
 import React, { useState } from "react"
 
 const photos = [
-    { src: "photos/buddha.jpg", thumb: "thumbnails/buddha.jpg" },
-    { src: "photos/palms.jpg", thumb: "thumbnails/palms.jpg" },
-    { src: "photos/bungalow.jpg", thumb: "thumbnails/bungalow.jpg" },
-    { src: "photos/tahoe.jpg", thumb: "thumbnails/tahoe.jpg" },
-    { src: "photos/convict_lake.jpg", thumb: "thumbnails/convict_lake.jpg" },
-    { src: "photos/lifts.jpg", thumb: "thumbnails/lifts.jpg" },
-    { src: "photos/hanalei.jpg", thumb: "thumbnails/hanalei.jpg" },
-    { src: "photos/princeville.jpg", thumb: "thumbnails/princeville.jpg" },
-    { src: "photos/thunderbird.jpg", thumb: "thumbnails/thunderbird.jpg" },
+    { src: "./photos/buddha.jpg", thumb: "./thumbnails/buddha.jpg" },
+    { src: "./photos/palms.jpg", thumb: "./thumbnails/palms.jpg" },
+    { src: "./photos/bungalow.jpg", thumb: "./thumbnails/bungalow.jpg" },
+    { src: "./photos/tahoe.jpg", thumb: "./thumbnails/tahoe.jpg" },
+    { src: "./photos/convict_lake.jpg", thumb: "./thumbnails/convict_lake.jpg" },
+    { src: "./photos/lifts.jpg", thumb: "./thumbnails/lifts.jpg" },
+    { src: "./photos/hanalei.jpg", thumb: "./thumbnails/hanalei.jpg" },
+    { src: "./photos/princeville.jpg", thumb: "./thumbnails/princeville.jpg" },
+    { src: "./photos/thunderbird.jpg", thumb: "./thumbnails/thunderbird.jpg" },
 ];
 
 const generateGrid = (photos, n, setter) => {
