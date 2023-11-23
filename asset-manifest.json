@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.35e4beda.css",
+    "main.js": "/portfolio/static/js/main.c613926b.js",
+    "static/media/doom.png": "/portfolio/static/media/doom.56b4b80e815ef0b364b5.png",
+    "static/media/axios.cjs": "/portfolio/static/media/axios.f73c6a014bbc8a882637.cjs",
+    "index.html": "/portfolio/index.html",
+    "main.35e4beda.css.map": "/portfolio/static/css/main.35e4beda.css.map",
+    "main.c613926b.js.map": "/portfolio/static/js/main.c613926b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35e4beda.css",
+    "static/js/main.c613926b.js"
+  ]
+}
