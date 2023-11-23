@@ -20,7 +20,6 @@ const tabs =  [
   { header: "Career", key: "career", icon: "bi-briefcase", link: `/career` },
   { header: "Photography", key: "photography", icon: "bi-camera", link: `/photography` },
   { header: "About Me", key: "aboutme", icon: "bi-file-person", link: `/aboutme` },
-  // { header: "About Me", key: "aboutme", icon: "bi-file-person", link: `/test` },
 ]
 
 function App(props) {
@@ -35,6 +34,7 @@ function App(props) {
       <main>
         <Switch>
           <Route path="/" exact render={() => <Home {...props} />} />
+          <Route path="/portfolio" exact render={() => <Home {...props} />} />
           <Route path="/career" exact render={() => <Career {...props} />} />
           <Route path="/photography" exact render={() => <Photography {...props} />} />
           <Route path="/aboutme" exact render={() => <AboutMe {...props} />} />
