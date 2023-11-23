@@ -1,35 +1,35 @@
 {
     "careers": [
         {
-            "icon": "/svg/career/apple.svg",
+            "icon": "svg/career/apple.svg",
             "title": "QoS Engineer",
             "org": "Apple",
             "description":
                 "During my time as an engineer at Cisco Systems, I have had the opportunity to improve my skills as both a developer and a network engineer. Using the JavaScript framework React.js in parallel with an InfluxDB backend, I helped build a monitoring dashboard that displays enterprise firewall health statistics. The telemetry data exposed for these network devices allows network engineers to troubleshoot problems in the corporate network without having to log in to devices."
         },
         {
-            "icon": "/svg/career/cisco.svg",
+            "icon": "svg/career/cisco.svg",
             "title": "Site Reliability Engineer",
             "org": "Cisco Systems",
             "description":
                 "During my time as an engineer at Cisco Systems, I have had the opportunity to improve my skills as both a developer and a network engineer. Using the JavaScript framework React.js in parallel with an InfluxDB backend, I helped build a monitoring dashboard that displays enterprise firewall health statistics. The telemetry data exposed for these network devices allows network engineers to troubleshoot problems in the corporate network without having to log in to devices."
         },
         {
-            "icon": "/svg/career/cisco.svg",
+            "icon": "svg/career/cisco.svg",
             "title": "Software Engineer Intern",
             "org": "Cisco Systems",
             "description":
                 "While interning as a network automation engineer at Cisco Systems, I helped build a cloud service which provides bidirectional connectivity between Cisco’s enterprise network and cloud platforms such as AWS. This services allows developers to connect to applications deployed in public cloud environments without compromising the security of the corporate network. I helped implement automated ACL provisioning as well as the backend account management for the service’s web UI."
         },
         {   
-            "icon": "/svg/career/sre.svg",
+            "icon": "svg/career/sre.svg",
             "title": "Electrical Engineer Intern",
             "org": "Spartan Racing Electric",
             "description":
                 "As a member of the powertrain team for San Jose State University’s electric race car, I learned essential skills involved in the production process of automotive electronics. During my time with the formula SAE racing team, I aided in the design and fabrication of the wiring harness for the race car’s electrical systems."
         },
         {
-            "icon": "/svg/career/sjsu.svg",
+            "icon": "svg/career/sjsu.svg",
             "title": "B.Sc. Electrical Engineering",
             "org": "San Jose State University",
             "description":
@@ -42,11 +42,11 @@
             "item": [
                 {
                     "name": "React",
-                    "icon": "/svg/skills/react.svg"
+                    "icon": "svg/skills/react.svg"
                 },
                 {
                     "name": "Grafana",
-                    "icon": "/svg/skills/grafana.svg"
+                    "icon": "svg/skills/grafana.svg"
                 }
             ] 
         },
@@ -55,15 +55,15 @@
             "item": [
                 {
                     "name": "Go",
-                    "icon": "/svg/skills/go.svg"
+                    "icon": "svg/skills/go.svg"
                 },
                 {
                     "name": "Python",
-                    "icon": "/svg/skills/python.svg"
+                    "icon": "svg/skills/python.svg"
                 },
                 {
                     "name": "Javascript",
-                    "icon": "/svg/skills/js.svg"
+                    "icon": "svg/skills/js.svg"
                 }
             ] 
         },
@@ -72,23 +72,23 @@
             "item": [
                 {
                     "name": "Postgres",
-                    "icon": "/svg/skills/postgres.svg"
+                    "icon": "svg/skills/postgres.svg"
                 },
                 {
                     "name": "Neo4j",
-                    "icon": "/svg/skills/neo4j.svg"
+                    "icon": "svg/skills/neo4j.svg"
                 },
                 {
                     "name": "Influx",
-                    "icon": "/svg/skills/influxdb.svg"
+                    "icon": "svg/skills/influxdb.svg"
                 },
                 {
                     "name": "Redis",
-                    "icon": "/svg/skills/redis.svg"
+                    "icon": "svg/skills/redis.svg"
                 },
                 {
                     "name": "Splunk",
-                    "icon": "/svg/skills/splunk.svg"
+                    "icon": "svg/skills/splunk.svg"
                 }
             ] 
         },
@@ -97,23 +97,23 @@
             "item": [
                 {
                     "name": "Kubernetes",
-                    "icon": "/svg/skills/kube.svg"
+                    "icon": "svg/skills/kube.svg"
                 },
                 {
                     "name": "Docker",
-                    "icon": "/svg/skills/docker.svg"
+                    "icon": "svg/skills/docker.svg"
                 },
                 {
                     "name": "AWS",
-                    "icon": "/svg/skills/aws.svg"
+                    "icon": "svg/skills/aws.svg"
                 },
                 {
                     "name": "GCP",
-                    "icon": "/svg/skills/gcp.svg"
+                    "icon": "svg/skills/gcp.svg"
                 },
                 {
                     "name": "Terraform",
-                    "icon": "/svg/skills/terraform.svg"
+                    "icon": "svg/skills/terraform.svg"
                 }
             ] 
         }
