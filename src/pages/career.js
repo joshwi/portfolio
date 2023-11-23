@@ -9,7 +9,7 @@ const generateCareers = (data) => {
                 <div className="card primary-bg d-block d-md-none" style={{ marginTop: "1rem" }}>
                     <div className="card-body">
                         <div className="row align-items-start" style={{ padding: "1rem" }}>
-                            <div className="col-auto"><img src={entry.icon} /></div>
+                            <div className="col-auto"><img src={process.env.PUBLIC_URL + entry.icon} /></div>
                             <div className="col"><h4 className="card-title">{entry.title}</h4><p className="card-title">{entry.org}</p></div>
                         </div>
                         <div className="row align-items-start" style={{ padding: "2rem" }}><p className="card-text">{entry.description}</p></div>
@@ -18,7 +18,7 @@ const generateCareers = (data) => {
                 <div className="card primary-bg d-none d-md-block" style={{ margin: "2rem" }}>
                     <div className="card-body">
                         <div className="row align-items-start" style={{ padding: "1rem" }}>
-                            <div className="col-auto"><img src={entry.icon} /></div>
+                            <div className="col-auto"><img src={process.env.PUBLIC_URL + entry.icon} /></div>
                             <div className="col"><h4 className="card-title">{entry.title}</h4><p className="card-title">{entry.org}</p></div>
                         </div>
                         <div className="row align-items-start" style={{ padding: "2rem" }}><p className="card-text">{entry.description}</p></div>
@@ -31,8 +31,8 @@ const generateCareers = (data) => {
 
 const generateSkills = (data) => {
     let skills = data.map(entry => {
-        let category = entry.item.map((entry, index) => { return (<div id={index} className="col-auto"><img src={entry.icon} width="25pt" height="25pt" /></div>) })
-        let category_xl = entry.item.map((entry, index) => { return (<div id={index} className="col-auto"><img src={entry.icon} width="50pt" height="50pt" /></div>) })
+        let category = entry.item.map((entry, index) => { return (<div id={index} className="col-auto"><img src={process.env.PUBLIC_URL + entry.icon} width="25pt" height="25pt" /></div>) })
+        let category_xl = entry.item.map((entry, index) => { return (<div id={index} className="col-auto"><img src={process.env.PUBLIC_URL + entry.icon} width="50pt" height="50pt" /></div>) })
         return (
             <>
                 <div className="row center-div" style={{ paddingTop: "1rem" }}><div className="col"><p>{entry.category}</p></div></div>

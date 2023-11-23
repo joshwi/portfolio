@@ -10,7 +10,7 @@ const Sidebar = (props) => {
     <>
       <nav className="navbar navbar-default primary-bg d-sm-block d-md-none z-100">
         <div className="container-fluid">
-          <Link key="home" className="txt secondary-text" to={"/"}><img src="/jw.svg" /></Link>
+          <Link key="home" className="txt secondary-text" to={"/"}><img src={process.env.PUBLIC_URL + "/jw.svg"} /></Link>
           <button className="btn primary-bg secondary-text" onClick={() => SetMenu(!menu)}>
             <i className={`bi bi-${menu ? "x-lg" : "list"} secondary-text`} style={{ fontSize: '2rem' }} />
           </button>

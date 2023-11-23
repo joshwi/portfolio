@@ -2,15 +2,15 @@
 import React, { useState } from "react"
 
 const photos = [
-    { src: "./photos/buddha.jpg", thumb: "./thumbnails/buddha.jpg" },
-    { src: "./photos/palms.jpg", thumb: "./thumbnails/palms.jpg" },
-    { src: "./photos/bungalow.jpg", thumb: "./thumbnails/bungalow.jpg" },
-    { src: "./photos/tahoe.jpg", thumb: "./thumbnails/tahoe.jpg" },
-    { src: "./photos/convict_lake.jpg", thumb: "./thumbnails/convict_lake.jpg" },
-    { src: "./photos/lifts.jpg", thumb: "./thumbnails/lifts.jpg" },
-    { src: "./photos/hanalei.jpg", thumb: "./thumbnails/hanalei.jpg" },
-    { src: "./photos/princeville.jpg", thumb: "./thumbnails/princeville.jpg" },
-    { src: "./photos/thunderbird.jpg", thumb: "./thumbnails/thunderbird.jpg" },
+    { src: "/photos/buddha.jpg", thumb: "/thumbnails/buddha.jpg" },
+    { src: "/photos/palms.jpg", thumb: "/thumbnails/palms.jpg" },
+    { src: "/photos/bungalow.jpg", thumb: "/thumbnails/bungalow.jpg" },
+    { src: "/photos/tahoe.jpg", thumb: "/thumbnails/tahoe.jpg" },
+    { src: "/photos/convict_lake.jpg", thumb: "/thumbnails/convict_lake.jpg" },
+    { src: "/photos/lifts.jpg", thumb: "/thumbnails/lifts.jpg" },
+    { src: "/photos/hanalei.jpg", thumb: "/thumbnails/hanalei.jpg" },
+    { src: "/photos/princeville.jpg", thumb: "/thumbnails/princeville.jpg" },
+    { src: "/photos/thunderbird.jpg", thumb: "/thumbnails/thunderbird.jpg" },
 ];
 
 const generateGrid = (photos, n, setter) => {
@@ -19,7 +19,7 @@ const generateGrid = (photos, n, setter) => {
 
 
     photos.map((entry, index) => {
-        columns.push(<div className="col"><img src={entry.thumb} style={{ width: "100%" }} onClick={() => setter({ visible: true, photo: entry.src })} /></div>)
+        columns.push(<div className="col"><img src={process.env.PUBLIC_URL + entry.thumb} style={{ width: "100%" }} onClick={() => setter({ visible: true, photo: entry.src })} /></div>)
 
         if ((index + 1) % n == 0) {
             grid.push(<div className="row p-3">{columns}</div>);
@@ -42,7 +42,7 @@ const expandPhoto = (state, SetState) => {
                 <button type="button" className="btn transparent d-none d-md-block" onClick={() => SetState({ ...state, visible: false })} style={{ position: "absolute", top: "2rem", right: "2rem", color: "white" }}><i className="bi bi-x-lg secondary-text" style={{ fontSize: '2rem' }} /></button>
                 <button type="button" className="btn transparent d-block d-md-none" onClick={() => SetState({ ...state, visible: false })} style={{ position: "absolute", top: "6rem", right: "2rem", color: "white" }}><i className="bi bi-x-lg secondary-text" style={{ fontSize: '2rem' }} /></button>
                 <div className="container center-div">
-                    <img src={state.photo} className="photo-lense" />
+                    <img src={process.env.PUBLIC_URL + state.photo} className="photo-lense" />
                 </div>
             </div>
         </div>
