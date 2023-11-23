@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "http://joshwi.github.io/portfolio/static/css/main.4c04cbe6.css",
-    "main.js": "http://joshwi.github.io/portfolio/static/js/main.1bbf2e3b.js",
-    "static/media/doom.png": "http://joshwi.github.io/portfolio/static/media/doom.56b4b80e815ef0b364b5.png",
-    "static/media/axios.cjs": "http://joshwi.github.io/portfolio/static/media/axios.f73c6a014bbc8a882637.cjs",
-    "index.html": "http://joshwi.github.io/portfolio/index.html",
-    "main.4c04cbe6.css.map": "http://joshwi.github.io/portfolio/static/css/main.4c04cbe6.css.map",
-    "main.1bbf2e3b.js.map": "http://joshwi.github.io/portfolio/static/js/main.1bbf2e3b.js.map"
+    "main.css": "https://joshwi.github.io/portfolio/static/css/main.1523eb72.css",
+    "main.js": "https://joshwi.github.io/portfolio/static/js/main.4bb01ff9.js",
+    "static/media/doom.png": "https://joshwi.github.io/portfolio/static/media/doom.56b4b80e815ef0b364b5.png",
+    "static/media/axios.cjs": "https://joshwi.github.io/portfolio/static/media/axios.f73c6a014bbc8a882637.cjs",
+    "index.html": "https://joshwi.github.io/portfolio/index.html",
+    "main.1523eb72.css.map": "https://joshwi.github.io/portfolio/static/css/main.1523eb72.css.map",
+    "main.4bb01ff9.js.map": "https://joshwi.github.io/portfolio/static/js/main.4bb01ff9.js.map"
   },
   "entrypoints": [
-    "static/css/main.4c04cbe6.css",
-    "static/js/main.1bbf2e3b.js"
+    "static/css/main.1523eb72.css",
+    "static/js/main.4bb01ff9.js"
   ]
 }
